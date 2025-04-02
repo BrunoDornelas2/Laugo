@@ -1,0 +1,17 @@
+:root{
+    --color1: #fff;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+body, input, textarea, button{
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}

@@ -53,7 +53,7 @@
       <span style="font-size: 1.2em;">🌐</span>
       <div>
         <div style="font-weight: 600; color: #4dabf7;">Site Oficial</div>
-        <div style="font-size: 0.9em; color: #a0d6ff;">Conheça nossa clínica virtual</div>
+        <div style="font-size: 0.9em; color: #a0d6ff;">Conheça o noso site</div>
       </div>
     </div>
   </div>

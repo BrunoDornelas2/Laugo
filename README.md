@@ -21,43 +21,14 @@
 
 
 ## 🐹 <span style="color: #FFFD74;">Links Úteis
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 25px 0;">
+<div style="text-align: left; display: flex; gap: 10px; flex-wrap: wrap;">
 
-<a href="https://trello.com/b/IUtaF52f/projeto-veterin%C3%A1rio" style="text-decoration: none;">
-  <div style="background: #011a33; border-left: 4px solid #FFFD74; padding: 12px 20px; border-radius: 0 8px 8px 0; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='none'; this.style.boxShadow='none';">
-    <div style="display: flex; align-items: center; gap: 10px;">
-      <span style="font-size: 1.2em;">📚</span>
-      <div>
-        <div style="font-weight: 600; color: #96D3CC;">Trello</div>
-        <div style="font-size: 0.9em; color: #FFFFFF;">Veja toda nossa trajetória de planejamento</div>
-      </div>
-    </div>
-  </div>
-</a>
+[![Trello](https://img.shields.io/badge/📋_Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white&labelColor=011a33)](https://trello.com/b/IUtaF52f/projeto-veterin%C3%A1rio)  
 
-<a href="https://www.figma.com/proto/minaFnN64nLJ4tbQGkIPlB/Veterinário?node-id=2-2&t=jXkJhusJ3tPVmlGN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2" style="text-decoration: none;">
-  <div style="background: #011a33; border-left: 4px solid #FFFD74; padding: 12px 20px; border-radius: 0 8px 8px 0; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='none'; this.style.boxShadow='none';">
-    <div style="display: flex; align-items: center; gap: 10px;">
-      <span style="font-size: 1.2em;">🎨</span>
-      <div>
-        <div style="font-weight: 600; color: #96D3CC;">Figma</div>
-        <div style="font-size: 0.9em; color: #FFFFFF;">Navegue pela nossa aplicação e veja como projeto está ficando!</div>
-      </div>
-    </div>
-  </div>
-</a>
+[![Figma](https://img.shields.io/badge/🎨_Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=011a33)](https://www.figma.com/proto/minaFnN64nLJ4tbQGkIPlB/Veterinário)  
 
-<a href="https://link-para-site.com" style="text-decoration: none;">
-  <div style="background: #011a33; border-left: 4px solid #4dabf7; padding: 12px 20px; border-radius: 0 8px 8px 0; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='none'; this.style.boxShadow='none';">
-    <div style="display: flex; align-items: center; gap: 10px;">
-      <span style="font-size: 1.2em;">🌐</span>
-      <div>
-        <div style="font-weight: 600; color: #4dabf7;">Site Oficial</div>
-        <div style="font-size: 0.9em; color: #a0d6ff;">Conheça o noso site</div>
-      </div>
-    </div>
-  </div>
-</a>
+[![Site Oficial](https://img.shields.io/badge/🌐_Site_Oficial-4dabf7?style=for-the-badge&labelColor=011a33)](https://link-para-site.com)  
+  
 
 </div>
 

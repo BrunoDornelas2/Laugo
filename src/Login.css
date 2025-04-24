@@ -35,11 +35,49 @@
     width: 80%;
     max-width: 300px;
 }
-  input {
+
+input {
     border: none;
     border-radius: 20px;
     padding: 0.75rem 1rem;
     background: #9DD9D2;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: relative;
+}
+
+.input-group label {
+    color: #9DD9D2;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.input-group input {
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    background: #96D3CC;
+    font-size: 1rem;
+}
+
+.forgot-password {
+    align-self: flex-end;
+    font-size: 0.875rem;
+    color: #96D3CC;
+    margin-top: 0.25rem;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
 }
 
 .button.primary {
@@ -59,12 +97,15 @@
 }
 
 .google-btn {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    border: 2px solid #96D3CC;
+    border-radius: 20px;
+    padding: 0.2rem 0.1rem;
+    padding-top: 0.3rem;
     background: none;
-    color: white;
+    color: #96D3CC;
+    width: 65px;
+    align-self: center;
+    
 }
 
 .yoga-img {
@@ -75,6 +116,15 @@
 }
 
 .logo-img {
-    width: auto;
+    width: 200.5px;
+    height: 200.5px;
     object-fit: contain;
+    align-self: center;
+}
+
+.terms {
+    align-self: center;
+    color: #96D3CC;
+    font-size: 12px;
+    margin-top: 3rem;
 }

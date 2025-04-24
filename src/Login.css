@@ -1,0 +1,80 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #001F3F;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+
+    background-image: url('./assets/curve.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+
+}
+
+.right-panel {
+    flex: 0.7;
+    background-color: #001F3F;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    max-width: 300px;
+}
+  input {
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    background: #9DD9D2;
+}
+
+.button.primary {
+    background-color: #FFFD74;
+    border-radius: 20px;
+    padding: 0.75rem;
+    cursor: pointer;
+    color: #022240;
+    
+}
+
+.button.secondary {
+    background-color: #FFFEA1;
+    border-radius: 20px;
+    padding: 0.75rem;
+    color: #022240;
+}
+
+.google-btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: white;
+}
+
+.yoga-img {
+    max-height: calc(100vh - 50px); 
+    width: auto;
+    object-fit: contain;
+
+}
+
+.logo-img {
+    width: auto;
+    object-fit: contain;
+}

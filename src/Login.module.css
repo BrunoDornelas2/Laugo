@@ -1,0 +1,21 @@
+.login-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+.right-panel {
+    flex: 0.7;
+    background-color: var(--color2);
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}

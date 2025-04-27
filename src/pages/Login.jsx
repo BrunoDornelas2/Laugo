@@ -1,16 +1,17 @@
 import LoginForm from "../components/LoginForm";
-import "../Login.css";
+import styles from "../Login.module.css";
 import ImageLogin from '../assets/imagem_garota_login.png' 
 
-export default function Login() {
+function Login() {
   return (
-    <div className="login-page">
+    <div className={styles["login-page"]}>
       <div className="left-panel">
-        <img src={ImageLogin} alt="Ilustração" className="yoga-img" />
+        <img src={ImageLogin} alt="Ilustração" className={styles["yoga-img"]} />
       </div>
-      <div className="right-panel">
+      <div className={styles["right-panel"]}>
         <LoginForm />
       </div>
     </div>
   );
 }
+export default Login

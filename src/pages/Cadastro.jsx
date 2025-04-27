@@ -1,17 +1,19 @@
 import CadastroForm from "../components/CadastroForm";
-import "../Cadastro.css";
-import ImageLogin from '../assets/imagem_garota_cadastro.png' 
+import styles from "../Cadastro.module.css";
+import ImageLogin from '../assets/imagem_garota_cadastro.png';
 
-export default function Cadastro() {
+function Cadastro() {
     return (
-        <div className="cadastro-page">
-            <div className="left-panel">
-                <img src={ImageLogin} alt="Ilustraçao cadastro" className="estudo-img" />
+        <div className={styles["cadastro-page"]}>
+            <div className="left-panel"> 
+                <img src={ImageLogin} alt="Ilustração cadastro" className={styles["estudo-img"]} />
             </div>
 
-            <div className="right-panel">
-                <CadastroForm/>
+            <div className={styles["right-panel"]}>
+                <CadastroForm />
             </div>
         </div>
     );
 }
+
+export default Cadastro;

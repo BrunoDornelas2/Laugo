@@ -5,39 +5,42 @@ import ImagemGoogle from "../assets/imagem_google.png";
 
 export default function CadastroForm() {
     return (
-        <div className="form-container">
-            <img src={ImagemLogo} alt="imagem_logo" className="logo2-img"/>
-            <p className="cadastro">Cadastro</p>
-            <button className="google-btn"><img src={ImagemGoogle} alt="Imagem google" /></button>
-            
-            <div className="input-group">
-                <label for="nome completo">Nome Completo</label>
-                <Input id="Nome_Completo" type="nome" placeholder=""/>
-            </div>
-
-            <div className="input-group">
-                <label for="email">E-mail</label>
-                <Input id="E-mail" type="email" placeholder="" />
-            </div>
-
-            <div className="input-group">
-                <label for="Numero de Telefone">Número de Telefone</label>
-                <Input id="Numero_telefone" type="numero" placeholder=""/>
-            </div>
-
-            <div className="input-group">
-                <label for="Senha">Senha</label>
-                <Input id="Senha" type="password" placeholder="" />
+        <form className="form-container">
+            <div style={{position: 'relative', height: '200px', display: 'flex', justifyContent: 'center'}}>
+            <img src={ImagemLogo} alt="imagem_logo" className="logoClass"/>
             </div>
             
+            <h3 className="titulo">Cadastro</h3>
+            <button className="google-btn" type="button"><img src={ImagemGoogle} alt="Imagem google" /></button>
+            
             <div className="input-group">
-                <label for="Confirmar Senha">Confirme a Senha</label>
+                <label htmlFor="nome_completo">Nome Completo</label>
+                <Input id="nome_completo" type="nome" placeholder=""/>
+            </div>
+
+            <div className="input-group">
+                <label htmlFor="email">E-mail</label>
+                <Input id="email" type="email" placeholder="" />
+            </div>
+
+            <div className="input-group">
+                <label htmlFor="Numero_Telefone">Número de Telefone</label>
+                <Input id="Numero_Telefone" type="numero" placeholder=""/>
+            </div>
+
+            <div className="input-group">
+                <label htmlFor="senha">Senha</label>
+                <Input id="senha" type="password" placeholder="" />
+            </div>
+            
+            <div className="input-group">
+                <label htmlFor="Confirmar_Senha">Confirme a Senha</label>
                 <Input id="Confirmar_Senha" type="password" placeholder="" />
             </div>
 
-            <Button className="primary">Criar Conta</Button>
+            <Button className="primary" type="submit">Criar Conta</Button>
             <p className="terms">Terms and Services</p>
 
-        </div>
+        </form>
     );
 }

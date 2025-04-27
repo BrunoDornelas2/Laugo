@@ -1,0 +1,33 @@
+.password-page{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    overflow-y: auto;
+}
+.image_senha{
+    max-width: 90%;
+    object-fit: contain;
+    margin-top: auto;
+}
+.right-panel {
+    flex: 0.7;
+    background-color: var(--color2);
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-panel {
+    flex: 1;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    align-items: center;
+    position: relative;
+
+    background-image: url('./assets/curve.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

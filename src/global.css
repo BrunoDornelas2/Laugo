@@ -1,5 +1,15 @@
 :root{
     --color1: #fff;
+    --color2: #001F3F;
+    --color3: #96D3CC;
+    --color4: #9DD9D2;
+    --color5: #FFFD74;
+    --color6: #022240;
+    --color7: #FFFEA1;
+    --color8: #E6F3FF;
+    --color9: #A3E0D9;
+    --color10: #EBEC70;
+    --color11: #FFBFBF;
 }
 *{
     margin:0;
@@ -9,9 +19,183 @@
 body{
     -webkit-font-smoothing: antialiased;
 }
-body, input, textarea, button{
+body, input, textarea, button, html, h3, h4{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--color2);
+}
+button{
+    font-weight: semibold;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    max-width: 300px;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    align-items: center;
+    position: relative;
+
+    background-image: url('./assets/curve.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.google-btn {
+    border: 2px solid var(--color3);
+    border-radius: 20px;
+    padding: 0.2rem 0.1rem;
+    padding-top: 0.3rem;
+    background: none;
+    color: var(--color3);
+    width: 65px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: relative;
+}
+
+.input-group label {
+    color: var(--color4);
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    background: var(--color4);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    align-self: flex-end;
+    font-size: 0.875rem;
+    color: var(--color3);
+    margin-top: 0.25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.button.primary {
+    background-color: var(--color5);
+    border-radius: 20px;
+    padding: 0.75rem;
+    cursor: pointer;
+    color: var(--color6);
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    margin-top: 3rem;
+}
+.button.primary:hover {
+    transform: scale(1.05);
+}
+
+.button.secondary {
+    background-color: var(--color7);
+    border-radius: 20px;
+    padding: 0.75rem;
+    cursor: pointer;
+    color: var(--color6);
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+.button.secondary:hover{
+    transform: scale(1.05);
+}
+
+.terms {
+    align-self: center;
+    color: var(--color3);
+    font-size: 12px;
+    margin-top: 3rem;
+}
+
+.logo-img {
+    width: 95.5%;
+    object-fit: contain;
+    align-self: center;
+}
+.logoClass{
+    width: 136.3%;
+    position: absolute;
+}
+.titulo{
+    font-size: 1.625rem;
+    font-weight: semibold;
+    color: var(--color4);
+}
+.menu{
+    width: 90.1%;
+    background-color: var(--color8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+header{
+    width: 90.1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 250px;
+}
+@media (max-width: 1366px) {
+    header{
+        max-height: 150px;
+    }
+  }
+.nome_user{
+    font-weight: semibold;
+    color: var(--color5);
+    margin-right: 2rem;
+}
+.rota{
+    border-radius: 20px;
+    width: 26.11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 539.92px;
+}
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

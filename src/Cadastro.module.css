@@ -1,0 +1,21 @@
+.cadastro-page {
+    display: flex;
+}
+
+.right-panel {
+    flex: 0.7;
+    background-color: var(--color2);
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; 
+    min-height: 100vh;
+}
+
+.estudo-img {
+    max-height: calc(100vh - 30px); 
+    width: auto;
+    object-fit: contain;
+
+}

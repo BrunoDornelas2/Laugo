@@ -19,6 +19,89 @@
 - Assinatura Digital para Certificação
 - Compartilhamento e Download de Laudos
 
+## 🐰 <span style="color: #FFFD74;">Instruções para Utilização e Navegação da Aplicação
+
+1. Primeiro precisamos instalar o Visual Studio Code (VS Code)
+    Passo 1: Acesse o site oficial do VS Code: 
+
+    🔗 https://code.visualstudio.com
+
+    Passo 2: Clique no botão "Download for Windows" (ou escolha seu sistema operacional).
+
+    Passo 3: Após o download, execute o instalador e siga os passos:
+
+    - Aceite os termos.
+
+    - Escolha o local da instalação (pode deixar padrão).
+
+    - Marque a opção "Add to PATH" (caso disponível).
+    
+    Conclua a instalação.
+    <br>
+
+2. Instalar o Node.js
+    Passo 1: Acesse o site oficial do Node.js:
+    🔗 https://nodejs.org
+
+    Passo 2: Clique em "LTS (Recommended for most users)".
+
+    Passo 3: Após o download, execute o instalador e siga os passos:
+
+    - Aceite os termos.
+
+    - Mantenha as opções padrão.
+
+    - Finalize a instalação.
+
+    Passo 4: Verifique se o Node.js foi instalado corretamente:
+    Abra o terminal (ou o PowerShell) e digite: "node -v" e veja se aparece alguma versão. Faça o mesmo com o "npm -v" e veja se aparece alguma versão.
+
+<br>
+
+3. Baixar a última versão do projeto no GitHub.
+    Passo 1: Acesse o repositório do projeto LauGO no GitHub.
+
+    Passo 2:Clique no botão "Code" (verde) e depois em "Download ZIP".
+
+    Passo 3:Extraia o conteúdo do arquivo .zip para uma pasta de sua preferência no seu computador.
+
+<br>
+
+4.  Abrir o projeto no VS Code
+    Passo 1: Abra o VS Code.
+
+    Passo 2: Vá em Arquivo > Abrir Pasta... e selecione a pasta que você extraiu.
+
+    Passo 3: Aguarde o VS Code carregar o projeto.
+
+<br>
+
+5.  Instalar as dependências do projeto (apenas na primeira vez)
+    Passo 1: No VS Code, pressione [Ctrl + aspas] ou vá em Terminal > Novo Terminal para abrir o terminal integrado.
+
+    Passo 2: No terminal, execute o comando:
+    - npm install
+
+    Espere a instalação finalizar e execute o próximo comando:
+    - npm instal react-router-dom
+
+<br>
+
+6.  Executar o projeto localmente
+    Passo 1: Ainda no terminal, após a instalação dos pacotes npm essenciais, digite:
+    - npm run dev
+
+    Passo 2: Aguarde até aparecer uma mensagem como:
+    - Local: "http://localhost:5173/"
+
+    Passo3: Clique no link (ou copie e cole no navegador).  
+
+
+
+## 🦊 <span style="color: #FFFD74;">Quadro da Sprint 1
+
+<img src="./assets-imgs/sprint1.png" alt="sprint1">
+
 
 ## 🐹 <span style="color: #FFFD74;">Links Úteis
 
@@ -30,7 +113,13 @@
     <img src="https://img.shields.io/badge/🎨_Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=011a33" alt="Figma">
   </a>
   <a href="https://drive.google.com/drive/folders/1wtBQ6A5JkJ8RtelawPbqpWjJaJh6fk8c?usp=sharing" target="_blank">
-    <img src="https://img.shields.io/badge/🎬_Screencast-8A2BE2?style=for-the-badge&logo=video&logoColor=white&labelColor=228B22" alt="Screencast">
+    <img src="https://img.shields.io/badge/🎬_Screencast-8A2BE2?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Screencast">
+  </a>
+  <a href="https://drive.google.com/drive/folders/1BTqpoHGNw4Lb7r32aXmO1HxVFtWV3uJ0?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Screencast WebSite-8A2BE2?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Screencast">
+  </a>
+  <a href="https://miro.com/welcomeonboard/RlJQbWp0emFhQzJ2OXZ0dFVXeHI0VjVraVUyR1NEK0NkNkN1MlFCWkNhVWcyKzhadjhGT3dqZytOMWVIRnF3elE5SGhTd0NuanMycEdmc28vTHJwOUd1cFFvR2pMZFE1aHRXU2laVW52TGVMY2hkZHduaStlMXJ2ZXhYZWxCRFVyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=442687372240" target="_blank">
+    <img src="https://img.shields.io/badge/📝_Diagrama-FFFD74?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Diagrama">
   </a>
   <a href="https://link-para-site.com" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Site_Oficial-4dabf7?style=for-the-badge&labelColor=011a33" alt="Site Oficial">

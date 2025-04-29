@@ -97,7 +97,43 @@
 
     Passo3: Clique no link (ou copie e cole no navegador).  
 
+## 🐻 <span style="color: #FFFD74;">Issue Bug Tracker
 
+1.  Acesse seu repositório no GitHub
+
+    Vá para o repositório onde está seu projeto.
+
+2.  Clique na aba Issues
+
+    Está localizada no topo, próxima de "Code", "Pull requests", etc.
+
+3.  Clique em New issue (ou Nova issue)
+
+    Um botão verde no canto direito da tela.
+
+4.  Preencha os detalhes do bug
+
+    Título (Title): Descreva resumidamente o bug. Ex: Erro ao salvar novo laudo
+
+    Descrição (Leave a comment):
+
+    <img src="./assets-imgs/issue_tracker.png" alt="issue_tracker">
+
+5.  Adicione um label (opcional mas recomendado)
+
+    Clique em Labels ao lado e selecione bug para indicar que é um problema.
+
+    Você também pode adicionar prioridade: high, medium, low.
+
+6.  Clique em Submit new issue
+
+## 🐼  <span style="color: #FFFD74;">Relato Programação em Par Experimentada
+
+Primeiramente foi desenvolvido e testado por Michelangelo as duas primeiras telas Login e Cadastro. Após o teste foi feito o commit.
+
+Após esse commit, o desenvolvedor Bruno testou novamente o ultimo commit com as duas primeiras telas e depois desenvolveu e testou as proximas telas Esqueceu a Senha e Menu Inicial.
+
+Após o commit, o Desenolvedor Michelangelo pegou o ultimo commit testou e atualizou o Readme.
 
 ## 🦊 <span style="color: #FFFD74;">Quadro da Sprint 1
 

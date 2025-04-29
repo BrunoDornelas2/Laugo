@@ -37,7 +37,8 @@
     - Marque a opção "Add to PATH" (caso disponível).
     
     Conclua a instalação.
-    <br>
+
+<br>
 
 2. Instalar o Node.js
     Passo 1: Acesse o site oficial do Node.js:

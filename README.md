@@ -84,7 +84,7 @@
     - npm install
 
     Espere a instalação finalizar e execute o próximo comando:
-    - npm instal react-router-dom
+    - npm install react-router-dom
 
 <br>
 
@@ -131,9 +131,9 @@
 
 Primeiramente foi desenvolvido e testado por Michelangelo as duas primeiras telas Login e Cadastro. Após o teste foi feito o commit.
 
-Após esse commit, o desenvolvedor Bruno testou novamente o ultimo commit com as duas primeiras telas e depois desenvolveu e testou as proximas telas Esqueceu a Senha e Menu Inicial.
+Após esse commit, o desenvolvedor Bruno testou novamente o último commit com as duas primeiras telas e depois desenvolveu e testou as proximas telas: Esqueceu a Senha e Menu Inicial.
 
-Após o commit, o Desenolvedor Michelangelo pegou o ultimo commit testou e atualizou o Readme.
+Após o commit, o desenvolvedor Michelangelo pegou o ultimo commit testou e atualizou o Readme.
 
 ## 🦊 <span style="color: #FFFD74;">Quadro da Sprint 1
 

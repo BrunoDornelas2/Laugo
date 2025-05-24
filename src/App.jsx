@@ -1,4 +1,4 @@
-import {Login, Cadastro, Password, Home} from './pages/index.js';
+import {Login, Cadastro, Password, Home, Historico} from './pages/index.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
                 <Route path="/Cadastro" element={<Cadastro />}/>
                 <Route path="/Recup_senha" element={<Password />}/>
                 <Route path="/Home_page" element={<Home />}/>
+                <Route path="/Historico" element={<Historico />}/>
                 </Routes>
             </Router>
         </main>

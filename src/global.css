@@ -199,3 +199,12 @@ header{
     flex-direction: column;
     align-items: center;
 }
+
+.abaHistorico{
+    height: 802px;
+    width: 90%;
+    background-color: var(--color8);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}

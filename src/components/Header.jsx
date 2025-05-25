@@ -1,7 +1,20 @@
 import ImagemLogo from "../assets/imagem_logo2.png";
 import ImagemUser from "../assets/foto_user.png";
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function Header() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const navHome = () => {
+    navigate('/Home_page');
+  };
+  const navHist = () => {
+    navigate('/Historico');
+  };
+  const navFale = () => {
+    navigate('/fale_conosco');
+  };
   return (
         <header>
         <img src={ImagemLogo} alt="imagem_logo" style={{width: '22.67%', marginTop: '45px'}}/>
@@ -9,10 +22,10 @@ export default function Header() {
         
         {/* Menu centralizado */}
         <nav className="menu-links">
-          <span>Home</span>
+          <span onClick={navHome} className={location.pathname === '/Home_page' ? 'ativo' : ''}>Home</span>
           <span>Laudos</span>
-          <span className="ativo">Histórico</span>
-          <span>Fale Conosco</span>
+          <span onClick={navHist} className={location.pathname === '/Historico' ? 'ativo' : ''}>Histórico</span>
+          <span onClick={navFale} className={location.pathname === '/fale_conosco' ? 'ativo' : ''}>Fale Conosco</span>
         </nav>
 
         {/* Nome e imagem do usuário */}

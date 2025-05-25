@@ -11,6 +11,9 @@ function Home () {
     const navHist = () => {
         navigate('/Historico');
     };
+    const navFale = () => {
+        navigate('/fale_conosco');
+    };
 
     return(
         <div className="central">
@@ -37,7 +40,7 @@ function Home () {
                 <p style={{fontSize: '1.625rem', marginBottom: '3rem', color: 'var(--color6)'}}>Dúvidas, assistência técnica e informações.</p>
                 <div className="central">
                 <img src={FaleConosco} alt="Icon Fale Conosco" style={{width: '59.52%', marginBottom: '2rem'}}/>
-                <a><img src={botao} alt="botão" style={{background: 'transparent', cursor: 'pointer'}}/></a>
+                <a onClick={navFale}><img src={botao} alt="botão" style={{background: 'transparent', cursor: 'pointer'}}/></a>
                 </div>
             </div>
             </div>

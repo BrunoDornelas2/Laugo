@@ -224,7 +224,7 @@ header{
     flex-direction: column;
     gap: 20px;
     padding: 30px;
-    flex: 1; /* <- Adicione isso */
+    flex: 1;
 }
 
 .cardLaudo {
@@ -307,4 +307,3 @@ header{
   width: 100%;
   background-color: var(--color5);
 }
-

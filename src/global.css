@@ -10,6 +10,8 @@
     --color9: #A3E0D9;
     --color10: #EBEC70;
     --color11: #FFBFBF;
+    --color12: #33A295;
+    --color13: #163656;
 }
 *{
     margin:0;
@@ -214,7 +216,7 @@ header{
 .tituloHistorico {
     font-size: 1.75rem;
     font-weight: bold;
-    color: #3A9B8F;
+    color: var(--color12);
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -225,12 +227,13 @@ header{
     gap: 20px;
     padding: 30px;
     flex: 1;
+    position: relative;
 }
 
 .cardLaudo {
     display: flex;
     align-items: center;
-    background-color: #3AA89E;
+    background-color: var(--color12);
     border-radius: 40px;
     padding: 15px 20px;
     width: 100%;
@@ -238,15 +241,18 @@ header{
 }
 
 .iconeLaudo {
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     margin-right: 20px;
+    position: absolute;
+    left: 27px;
 }
 
 .textoLaudo {
-    color: white;
+    color: var(--color1);
     font-size: 1.1rem;
     font-weight: 600;
+    margin-left: 35px;
 }
 
 .conteudoHistorico {
@@ -257,7 +263,7 @@ header{
 
 .visualizadorLaudo {
     flex: 1;
-    background-color: #fff;
+    background-color: var(--color1);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
@@ -306,4 +312,65 @@ header{
   height: 2px;
   width: 100%;
   background-color: var(--color5);
+}
+
+.saveModel {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--color8);
+    color: var(--color2);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.saveModel:hover {
+    transform: scale(1.02);
+}
+.fale-conosco-container{
+    height: 791px;
+    width: 95.6%;
+    background-color: var(--color13);
+    color: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.divisor-vertical{
+    height: 100%;
+    width: 1px;
+    background-color: var(--color1);
+}
+.form-fc{
+    width: 38%;
+}
+.btn-form{
+    font-size: 1.5625rem;
+    background-color: #0066CC;
+    width: 100%;
+    margin-top: 30px;
+    color: var(--color1);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-form:hover {
+    transform: scale(1.02);
+}
+.item-org{
+    padding: 10px;
+}
+.input-org{
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    background: var(--color4);
+    font-size: 1rem;
+    width: 8%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 10px;
 }

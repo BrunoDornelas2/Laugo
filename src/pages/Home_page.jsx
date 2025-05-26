@@ -14,6 +14,9 @@ function Home () {
     const navFale = () => {
         navigate('/fale_conosco');
     };
+    const navLaudos = () => {
+        navigate('/laudos');
+    };
 
     return(
         <div className="central">
@@ -24,7 +27,7 @@ function Home () {
                 <p style={{fontSize: '1.625rem', marginBottom: '3rem', color: 'var(--color6)'}}>Novos laudos, consulta e modelos.</p>
                 <div className="central">
                 <img src={IconLaudo} alt="Icon Laudos" style={{width: '41.66%', marginBottom: '2rem'}}/>
-                <a><img src={botao} alt="botão" style={{background: 'transparent', cursor: 'pointer'}}/></a>
+                <a onClick={navLaudos}><img src={botao} alt="botão" style={{background: 'transparent', cursor: 'pointer'}}/></a>
                 </div>
             </div>
             <div className="rota" style={{backgroundColor: 'var(--color10)'}}>

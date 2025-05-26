@@ -15,6 +15,9 @@ export default function Header() {
   const navFale = () => {
     navigate('/fale_conosco');
   };
+  const navLaudos = () => {
+    navigate('/laudos');
+  };
   return (
         <header>
         <img src={ImagemLogo} alt="imagem_logo" style={{width: '22.67%', marginTop: '45px'}}/>
@@ -23,7 +26,7 @@ export default function Header() {
         {/* Menu centralizado */}
         <nav className="menu-links">
           <span onClick={navHome} className={location.pathname === '/Home_page' ? 'ativo' : ''}>Home</span>
-          <span>Laudos</span>
+          <span onClick={navLaudos} className={location.pathname === '/laudos' ? 'ativo' : ''}>Laudos</span>
           <span onClick={navHist} className={location.pathname === '/Historico' ? 'ativo' : ''}>Histórico</span>
           <span onClick={navFale} className={location.pathname === '/fale_conosco' ? 'ativo' : ''}>Fale Conosco</span>
         </nav>

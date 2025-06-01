@@ -19,7 +19,7 @@ function Home () {
     };
 
     return(
-        <div className="left-panel2">
+        
         <div className="central">
             <Header/>
             <div className="menu">
@@ -49,7 +49,7 @@ function Home () {
             </div>
             </div>
         </div>
-        </div>
+        
     )
 }
 export default Home

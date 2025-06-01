@@ -27,7 +27,7 @@ function Historico () {
     };
 
     return (
-        <div className="left-panel2">
+        
         <div className="central">
             <Header/>
             <div className="abaHistorico">
@@ -65,7 +65,7 @@ function Historico () {
                 </div>
             </div>
         </div>
-        </div>
+        
     );
 }
 export default Historico;

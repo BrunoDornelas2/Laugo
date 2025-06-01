@@ -10,7 +10,7 @@ function Laudos () {
     };
 
     return (
-        <div className="left-panel2">
+        
         <div className="central" style={{width: '100%'}}>
             <Header/>
             <div style={{
@@ -27,14 +27,14 @@ function Laudos () {
             textAlign: 'center',
             color: 'var(--color1)'
             }}>
-                <h3 style={{fontSize: '1.8rem', fontWeight: '500', backgroundColor: 'rgba(0, 31, 63, 0.6)', padding: '20px', borderRadius: '20px'}}>Aqui você pode criar novos laudos do zero ou a partir dos seus modelos personalizados.</h3>
+                <h3 style={{fontSize: '2.4rem', fontWeight: '500'}}>Aqui você pode criar novos laudos do zero ou a partir dos seus modelos personalizados.</h3>
                 <div style={{width: '40%', display: 'flex', justifyContent: 'space-between', marginBottom: '100px'}}>
                     <a onClick={navForm} className="linkLaudo">CRIAR NOVO LAUDO</a>
                     <a className="linkLaudo">MODELOS CRIADOS</a>
                 </div>
             </div>
         </div>
-        </div>
+        
     )
 }
 

@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 function FaleC () {
     return(
-   <div className="left-panel2">
+   
    <div className="central">
        <Header/>
        <div className="fale-conosco-container">
@@ -46,7 +46,7 @@ function FaleC () {
                 </div>
             </div>
    </div>
-   </div>
+   
     )
 }
 

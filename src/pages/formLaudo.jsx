@@ -152,7 +152,7 @@ function FormLaudo () {
 
         if (textoLinfonodos || linfonodos) {
             const medida = linfonodos ? ` (${linfonodos} cm)` : '';
-            texto += `<br><p><strong>Linfonodos</strong>${medida} ${textoLinfonodos}</p><br>`;
+            texto += `<p><strong>Linfonodos</strong>${medida} ${textoLinfonodos}</p><br>`;
         }
 
         if (textoCA || CA) {

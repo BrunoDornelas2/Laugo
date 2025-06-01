@@ -7,7 +7,7 @@ function Editor ({ initialContent }) {
 
     const config = useMemo(() => ({
         readonly: false,
-        height: '70vh',
+        height: '80vh',
         width: '100%',
         uploader: {
             insertImageAsBase64URI: true,
@@ -28,7 +28,7 @@ function Editor ({ initialContent }) {
     }, [initialContent]);
 
     return (
-        <div className="central" style={{marginTop: '40px', width: '100%'}}>
+        <div className="central" style={{width: '100%'}}>
            <JoditEditor
              ref = {editor}
              value = {content}
@@ -36,7 +36,7 @@ function Editor ({ initialContent }) {
              onBlur = {handleUpdate}
              onChange = {(newContent) => {}}
            />
-           <button className='saveModel'>Salvar Modelo</button>
+           <button className='btnSelect' >Salvar Modelo de Laudo</button>
         </div>
     )
 }

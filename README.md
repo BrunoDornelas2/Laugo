@@ -170,6 +170,9 @@ Na sprint final, o desenvolvedor Bruno, ao terminar a sprint com o editor de lau
   <a href="https://drive.google.com/drive/folders/1BTqpoHGNw4Lb7r32aXmO1HxVFtWV3uJ0?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/🎬_Screencast WebSite Sprint 1-8A2BE2?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Screencast">
   </a>
+  <a href="https://drive.google.com/drive/folders/1rgu0YuafwVlV2FHHvn1qNO5ps6Vx4swp?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Screencast WebSite Sprint Final-8A2BE2?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Screencast">
+  </a>
   <a href="https://miro.com/welcomeonboard/RlJQbWp0emFhQzJ2OXZ0dFVXeHI0VjVraVUyR1NEK0NkNkN1MlFCWkNhVWcyKzhadjhGT3dqZytOMWVIRnF3elE5SGhTd0NuanMycEdmc28vTHJwOUd1cFFvR2pMZFE1aHRXU2laVW52TGVMY2hkZHduaStlMXJ2ZXhYZWxCRFVyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=442687372240" target="_blank">
     <img src="https://img.shields.io/badge/📝_Diagrama-FFFD74?style=for-the-badge&logo=video&logoColor=white&labelColor=011a33" alt="Diagrama">
   </a>
